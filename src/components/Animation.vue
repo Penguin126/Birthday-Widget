@@ -73,7 +73,4 @@ export default {
       top: 82%;
       width: 40px;
   }
-  #replayButton:hover {
-
-  }
 </style>
