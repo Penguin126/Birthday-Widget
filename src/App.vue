@@ -38,13 +38,7 @@ export default {
       for (var i = 0; i < backdrop.length; i++) {
           backdrop[i].style.backgroundColor = this.background
       }
-      /*
-      var elements = document.getElementsByClassName("animation")
-      for (var i = 0; i < elements.length; i++) {
-        console.log(elements[i])
-      }
-      
-  */
+
       const gif = document.getElementById("gif")
       const finalImg = document.getElementById("finalImg")
       const rotateString = "hue-rotate(" + this.theme + "deg)";
